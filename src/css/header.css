@@ -1,0 +1,44 @@
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 45px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 45px;
+  color: black;
+}
+
+.nav-link{
+    font-weight: 600 !important
+}
+.nav-font{
+  font-family: Modern-Sans-Light;
+  font-size: 16px;
+    font-weight: 600 !important
+}
+.nav-font:hover{
+  color: #FF7D00;
+}
+.socialtop{
+  /* float: right; */
+  margin-right: 5%;
+}
+.top-social{
+  padding: 14px 15px;
+
+}
+.top-social a{
+  padding: 13px;
+  color: BLACK;
+}
+.top-social a:hover{
+color: #FF7D00;
+}
+.a:hover{
+color:#FF7D00
+}
