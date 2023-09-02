@@ -29,7 +29,7 @@ export default function Header() {
     
   </div>
 </div>
-<Link style={{fontWeight:"600"}}to="#" className="nav-item nav-link active nav-font">Services</Link>
+<Link style={{fontWeight:"600"}}to="/services" className="nav-item nav-link active nav-font">Services</Link>
 
      <Link to="/contact" className="nav-item nav-link active nav-font" >Contact Us</Link>
       </div>

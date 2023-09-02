@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
-import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-import { faMapMarker } from "@fortawesome/free-solid-svg-icons"; // Example for a solid (non-brands) icon
 
 import "react-toastify/dist/ReactToastify.css";
 // import firebaseDB from 'firebase'

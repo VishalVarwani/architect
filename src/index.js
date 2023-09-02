@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header';
-import Home from './components/home';
+// import Home from './components/home';
 import { BrowserRouter } from 'react-router-dom';
+// import Demo from './demo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,8 +14,7 @@ root.render(
     <BrowserRouter>
     <Header/>
     <App />
-    {/* <Header/>
-    <Home/> */}
+  
     </BrowserRouter>
   </React.StrictMode>
 );
