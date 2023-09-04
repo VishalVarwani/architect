@@ -52,7 +52,7 @@ export default function Contacts() {
               <div style={{display:"flex",flexDirection: "row-reverse"}} className="row no-gutters">
                 <div className="col-md-6">
                   <div className=" w-100 p-lg-5 p-4">
-                    <h3 className="mb-4">Send us a message</h3>
+                    <h3 className="mb-4">Send us a message pleadeeeeee</h3>
                     <form
                       id="contactForm"
                       className="contactForm"
