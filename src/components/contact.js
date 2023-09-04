@@ -73,9 +73,7 @@ export default function Contacts() {
                             />
                           </div>
                         </div>
-                        <br/>                        <br/>
-                        <br/>
-                        <br/>
+                   
                         <div className="col-md-12">
                           <div className="form-group">
                             <input
@@ -91,9 +89,7 @@ export default function Contacts() {
                             />
                           </div>
                         </div>
-                        <br/>                        <br/>
-                        <br/>
-                        <br/>
+                  
                         <div className="col-md-12">
                           <div className="form-group">
                             <input
@@ -108,10 +104,7 @@ export default function Contacts() {
                             />
                           </div>
                         </div>
-                        <br/>                        <br/>
-                        <br/>
-                        <br/>
-
+                    
                         <div className="col-md-12">
                           <div className="form-group">
                             <textarea
@@ -143,20 +136,20 @@ export default function Contacts() {
                   </div>
                 </div>
                 <div className="col-md-6 d-flex align-items-stretch">
-                  <div className="info-wrap w-100 p-lg-5 p-4 img">
+                  <div style={{display:"flex", flexDirection:"column", justifyContent:"flex-start"}}className="info-wrap w-100 p-lg-5 p-4 img">
                    
-                    <div className="dbox w-100 d-flex align-items-start">
+                    <div className="  w-100 d-flex align-items-start">
                       {/* <div className="icon d-flex align-items-center justify-content-center">
                       <FontAwesomeIcon icon={faMapMarkerAlt} />
                       </div> */}
 
-                      <div className="text pl-3">
+                      <div style={{marginBottom:"2%"}} className="text pl-3">
                         <p>
                           <p style={{fontWeight:"bold"}}>Thane- Head Office</p>
                           <span> Address: </span> 11, Puraniks Capitol, Opp. Hyper city mall, Kasarvadvali, Ghodbunder road, Thane W 400615
                         </p>
                         <p>
-                          <span>Phone:</span>
+                          Phone:
                           <a style={{color:"grey"}}  href="tel://123456789">+91 8291996675</a>
                         </p>
                         <p>
@@ -169,12 +162,12 @@ export default function Contacts() {
                       </div>
                       
                     </div>
-                    <div className="dbox w-100 d-flex align-items-start">
+                    <div className="  w-100 d-flex align-items-start">
 
                     {/* <div className="icon d-flex align-items-center justify-content-center">
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
                       </div> */}
-                    <div className="text pl-3">
+                    <div style={{marginBottom:"2%"}} className="text pl-3">
                         <p>
                           <p style={{fontWeight:"bold"}}>Hyderabad- Branch Office</p>
                           <span>Address: </span> Office No. 217, floor- Level 2, Oval Building, Inorbit Mall Road, Telangana – 500081.
@@ -192,9 +185,9 @@ export default function Contacts() {
                         </p>
                       </div>
                       </div>
-                      <div className="dbox w-100 d-flex align-items-start">
+                      <div className="  w-100 d-flex align-items-start">
                     
-                      <div className="text pl-3">
+                      <div style={{marginBottom:"2%"}} className="text pl-3">
                         <p>
                         <p style={{fontWeight:"bold"}}>Panvel - Branch Office</p>
                           <span>Address:</span> The address will provide soon
@@ -212,7 +205,7 @@ export default function Contacts() {
                         </p>
                       </div>
                       </div>
-                      <div className="dbox w-100 d-flex align-items-start">
+                      <div className="  w-100 d-flex align-items-start">
                      
                       <div className="text pl-3">
                         <p>
