@@ -46,12 +46,12 @@ export default function Contacts() {
     <section  className="contact-section">
       <div className="">
         <ToastContainer position="top-center" />
-        <div className="row justify-content-center">
-          <div className="col-md-10">
+        <div  className="row justify-content-center">
+          <div  className="col-md-10">
             <div className="wrapper">
-              <div className="row no-gutters">
+              <div style={{display:"flex",flexDirection: "row-reverse"}} className="row no-gutters">
                 <div className="col-md-6">
-                  <div style={{backgroundColor:"#f0f4f8"}}className=" w-100 p-lg-5 p-4">
+                  <div className=" w-100 p-lg-5 p-4">
                     <h3 className="mb-4">Send us a message</h3>
                     <form
                       id="contactForm"
@@ -68,7 +68,7 @@ export default function Contacts() {
                               placeholder="Name"
                               onChange={handleInputChange}
                               value={name}
-                              style={{ color: 'black' ,backgroundColor: 'white'}} // Set text color to black
+                              style={{ color: 'black' ,backgroundColor: 'white', border:"1px solid black", padding:"1%"}} // Set text color to black
 
                             />
                           </div>
@@ -85,7 +85,7 @@ export default function Contacts() {
                               placeholder="Email"
                               onChange={handleInputChange}
                               value={email}
-                              style={{ color: 'black' ,backgroundColor: 'white'}} // Set text color to black
+                              style={{ color: 'black' ,backgroundColor: 'white', border:"1px solid black", padding:"1%"}} // Set text color to black
 
                               
                             />
@@ -103,7 +103,7 @@ export default function Contacts() {
                               placeholder="Subject"
                               onChange={handleInputChange}
                               value={subject}
-                              style={{ color: 'black' ,backgroundColor: 'white'}} // Set text color to black
+                              style={{ color: 'black' ,backgroundColor: 'white', border:"1px solid black", padding:"1%"}} // Set text color to black
 
                             />
                           </div>
@@ -123,7 +123,7 @@ export default function Contacts() {
                               rows="6"
                               onChange={handleInputChange}
                               value={message}
-                              style={{ color: 'black' ,backgroundColor: 'white'}} // Set text color to black
+                              style={{ color: 'black' ,backgroundColor: 'white', border:"1px solid black", padding:"1%"}} // Set text color to black
 
                             ></textarea>
                           </div>
@@ -144,18 +144,16 @@ export default function Contacts() {
                 </div>
                 <div className="col-md-6 d-flex align-items-stretch">
                   <div className="info-wrap w-100 p-lg-5 p-4 img">
-                    <h3>Contact us</h3>
-                    <p className="mb-4">
-                      We're open for any suggestion or just to have a chat
-                    </p>
+                   
                     <div className="dbox w-100 d-flex align-items-start">
-                      <div className="icon d-flex align-items-center justify-content-center">
+                      {/* <div className="icon d-flex align-items-center justify-content-center">
                       <FontAwesomeIcon icon={faMapMarkerAlt} />
-                      </div>
+                      </div> */}
 
                       <div className="text pl-3">
                         <p>
-                          <span>Address: <br/> Thane- Head Office <br/></span> 11, Puraniks Capitol, Opp. Hyper city mall, Kasarvadvali, Ghodbunder road, Thane W 400615
+                          <p style={{fontWeight:"bold"}}>Thane- Head Office</p>
+                          <span> Address: </span> 11, Puraniks Capitol, Opp. Hyper city mall, Kasarvadvali, Ghodbunder road, Thane W 400615
                         </p>
                         <p>
                           <span>Phone:</span>
@@ -173,12 +171,13 @@ export default function Contacts() {
                     </div>
                     <div className="dbox w-100 d-flex align-items-start">
 
-                    <div className="icon d-flex align-items-center justify-content-center">
+                    {/* <div className="icon d-flex align-items-center justify-content-center">
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
-                      </div>
+                      </div> */}
                     <div className="text pl-3">
                         <p>
-                          <span>Address: <br/> Hyderabad- Branch Office <br/></span> Office No. 217, floor- Level 2, Oval Building, Inorbit Mall Road, Telangana – 500081.
+                          <p style={{fontWeight:"bold"}}>Hyderabad- Branch Office</p>
+                          <span>Address: </span> Office No. 217, floor- Level 2, Oval Building, Inorbit Mall Road, Telangana – 500081.
                         </p>
                         <p>
                           <span>Phone:</span>
@@ -194,12 +193,11 @@ export default function Contacts() {
                       </div>
                       </div>
                       <div className="dbox w-100 d-flex align-items-start">
-                      <div className="icon d-flex align-items-center justify-content-center">
-                      <FontAwesomeIcon icon={faMapMarkerAlt} />
-                      </div>
+                    
                       <div className="text pl-3">
                         <p>
-                          <span>Address: <br/> Panvel- Branch Office <br/></span> The address will provide soon
+                        <p style={{fontWeight:"bold"}}>Panvel - Branch Office</p>
+                          <span>Address:</span> The address will provide soon
                         </p>
                         <p>
                           <span>Phone:</span>
@@ -215,12 +213,11 @@ export default function Contacts() {
                       </div>
                       </div>
                       <div className="dbox w-100 d-flex align-items-start">
-                      <div className="icon d-flex align-items-center justify-content-center">
-                      <FontAwesomeIcon icon={faMapMarkerAlt} />
-                      </div>
+                     
                       <div className="text pl-3">
                         <p>
-                          <span>Address: <br/> Bangalore- Branch Office <br/></span> The address will provide soon
+                          <p style={{fontWeight:"bold"}}>Bangalore- Branch Office</p>
+                          <span>Address:</span> The address will provide soon
                         </p>
                         <p>
                           <span>Phone:</span>

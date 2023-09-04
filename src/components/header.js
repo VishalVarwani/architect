@@ -8,24 +8,24 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 export default function Header() {
   return (
-    <div>
+    <div style={{marginLeft:"8%"}}>
       
   <nav className="navbar navbar-expand-lg navbar-light">
   <div className="container-fluid">
     <Link to="#" className="navbar-brand">
-      <img src="images/logo_1.png" height={48} alt="CoolBrand" />
+      <img style={{height:"114px"}} src="images/logo_2.png" alt="CoolBrand" />
     </Link>
     <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
       <span className="navbar-toggler-icon" />
     </button>
-    <div className="collapse navbar-collapse" id="navbarCollapse">
+    <div style={{justifyContent:"space-evenly"}}className="collapse navbar-collapse" id="navbarCollapse">
       <div className="navbar-nav">
         <Link to="/" className="nav-item nav-link active nav-font">Home</Link>
         
       <div className="nav-item dropdown">
   <Link to="#" className="nav-link dropdown-toggle active nav-font" data-bs-toggle="dropdown">About Us</Link>
   <div className="dropdown-menu">
-    <Link to="#" className="dropdown-item nav-font">Teams</Link>
+    <Link to="/" className="dropdown-item nav-font">Teams</Link>
     
   </div>
 </div>

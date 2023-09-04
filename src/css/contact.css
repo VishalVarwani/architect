@@ -1,5 +1,6 @@
 .contact-section {
-    padding: 7em 0;
+    padding-bottom: 7em;
+    padding-top: 1em;
   }
   
   .wrapper {
@@ -54,13 +55,14 @@
   .form-control:focus,
   .form-control:active {
     background: transparent;
-    border-color: rgba(255, 255, 255, 0.5) !important;
+    border: 2px solid black !important
   }
   
   textarea.form-control {
     height: inherit !important;
     margin-top: 5px;
   }
+  
   
   .contactForm .form-control {
     border: none;
