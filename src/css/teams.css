@@ -1,6 +1,6 @@
 .columnn {
     float: left;
-    width: 33.33%;
+    width: 25%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
   }
@@ -13,7 +13,41 @@
   }
 
   @media screen and (max-width: 600px) {
-    .column {
+    .columnn {
       width: 100%;
+   
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
     }
+  }
+
+  .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 5px;
+    height: 0; 
+    transition: .5s ease;
+    overflow: hidden;
+    color: white  ;
+  }
+  
+
+  .containerr:hover .overlay{
+    height: 100%;
+
+
+  }
+  /* .overlay:hover{
+    overflow: visible;
+    color: white;
+  } */
+
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: 0rem 0rem !important
+
   }

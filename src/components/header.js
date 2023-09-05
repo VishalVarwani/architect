@@ -25,7 +25,7 @@ export default function Header() {
       <div className="nav-item dropdown">
   <Link to="#" className="nav-link dropdown-toggle active nav-font" data-bs-toggle="dropdown">About Us</Link>
   <div className="dropdown-menu">
-    <Link to="/" className="dropdown-item nav-font">Teams</Link>
+    <Link to="/teams" className="dropdown-item nav-font">Teams</Link>
     
   </div>
 </div>
